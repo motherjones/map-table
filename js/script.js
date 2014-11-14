@@ -1,3 +1,6 @@
+
+var pymChild = null;
+
 var public_spreadsheet_url = "https://docs.google.com/spreadsheet/pub?key=0AuHOPshyxQGGdDFnemtSV2tCXzJDOFNfeDNQY2lvb2c&output=html";
 
 var set_class = function(state, map, css_class) {
@@ -28,9 +31,10 @@ var set_map_classes = function(data) {
 }
 
 var makeTable = function(data) {
-    var table = jQuery('#pot_table');
+    var table = jQuery('#map_table');
     var select = jQuery('#jump_to_state select');
     var empty_text = '<span class="inline_label">&#10008;</span>';
+
     select.change(function() {
         window.location.hash = select.val() + '_row';
         return false;
@@ -45,11 +49,7 @@ var makeTable = function(data) {
         select.append('<option value="' + state.postal + '">' + state.state + '</option>');
 
         //add state name
-        tr.append(
-            '<td class="state_name">' +
-            state.state +
-            '</td>'
-            );
+        tr.append('<td class="state_name">' + state.state + '</td>' );
 
         //add provide
         data[i].provide_class = 'no';
@@ -62,9 +62,9 @@ var makeTable = function(data) {
         }
 
         tr.append(
-            '<td class="' + data[i].provide_class + '"><p>' +
+            '<td class="' + data[i].provide_class + '"><span>' +
             (state.providedetails !== '' ? state.providedetails : empty_text) +
-            '</p></td>'
+            '</span></td>'
             )
 
         //add evidence
@@ -75,9 +75,9 @@ var makeTable = function(data) {
             data[i].evidence_class = 'yes';
         }
         tr.append(
-            '<td class="' + data[i].evidence_class + '"><p>' +
+            '<td class="' + data[i].evidence_class + '"><span>' +
             (state.evidencedetails !== '' ? state.evidencedetails :  empty_text) +
-            '</p></td>'
+            '</span></td>'
             )
 
         //add judges
@@ -88,9 +88,9 @@ var makeTable = function(data) {
             data[i].judges_class = 'yes';
         }
         tr.append(
-            '<td class="' + data[i].judges_class + '"><p>' +
+            '<td class="' + data[i].judges_class + '"><span>' +
             (state.judgesdetails.replace(/ /, '') !== '' ? state.judgesdetails : empty_text) +
-            '</p></td>'
+            '</span></td>'
             )
 
         //add fewer
@@ -101,9 +101,9 @@ var makeTable = function(data) {
             data[i].fewer_class = 'yes';
         }
         tr.append(
-            '<td class="' + data[i].fewer_class + '"><p>' +
+            '<td class="' + data[i].fewer_class + '"><span>' +
             (state.fewerdetails.replace(/ /, '') !== '' ? state.fewerdetails : empty_text) +
-            '</p></td>'
+            '</span></td>'
             )
 
         //add lawyers
@@ -114,9 +114,9 @@ var makeTable = function(data) {
             data[i].lawyers_class = 'yes';
         }
         tr.append(
-            '<td class="' + data[i].lawyers_class + '"><p>' +
+            '<td class="' + data[i].lawyers_class + '"><span>' +
             (state.lawyersdetails.replace(/ /, '') !== '' ? state.lawyersdetails : empty_text) +
-            '</p></td>'
+            '</span></td>'
             )
        
 
@@ -125,8 +125,13 @@ var makeTable = function(data) {
 
     set_map_classes(data);
 
+    pymChild = new pym.Child();
+    pymChild.sendHeight();
+
 }
 
 Tabletop.init( { 
     key: public_spreadsheet_url, callback: makeTable, simpleSheet: true,
 } )
+
+

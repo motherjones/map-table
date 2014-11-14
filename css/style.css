@@ -1,219 +1,40 @@
-#mojo-graphic table  {
- border-collapse: collapse;
- padding: 0;
- width: 100%;
- font: 12px/1.4 Arial, Helvetica, sans-serif;
-}
 
-#mojo-graphic table th,
-#mojo-graphic table td  {
- padding: 5px;
- color: #333;
- text-align: center;
- width: 15%;
-}
-
-#mojo-graphic table th {
- border-bottom: 2px solid #eee;
- vertical-align: bottom;
-}
-
-#mojo-graphic table td {
- border-bottom: 1px solid #eee;
- border-right: 1px solid #fff;
- vertical-align: middle;
- width: 5%;
- color: #fff;
-}
-
-#mojo-graphic table td {
- border-bottom: 1px solid #eee;
- border-right: 1px solid #fff;
- vertical-align: middle;
- width: 5%;
- color: #fff;
-}
-
-#mojo-graphic table th:first-child,
-#mojo-graphic table td:first-child {
- text-align: left;
- width: 5%;
- color: #333;
- background-color: #fff;
+svg {
+  width: 100%;
 }
 
 
-#mojo-graphic .svg_container {
- position: relative;
- padding-bottom: 62%;
- height: 0;
- overflow: hidden;
-}
-#mojo-graphic .svg_container svg {
- position: absolute;
- top: 0;
- left: 0;
- width: 100%;
- height: 100%;
-}
-
-#mojo-graphic table td,
-#mojo-graphic .key-2 b, 
-#mojo-graphic .no, 
-#mojo-graphic svg path.no, 
-#mojo-graphic svg .no path {
- background-color: #ebebeb;
- fill: #ebebeb;
-}
-
-#mojo-graphic table td.yes,
-.key-0 b, #mojo-graphic svg .yes path,
- #mojo-graphic .yes, #mojo-graphic svg path.yes {
- background-color: #e6550d;
- fill: #e6550d;
-}
-
-#mojo-graphic svg .challenged path,
-#mojo-graphic .challenged, #mojo-graphic svg path.challenged, .key-1 b {
- background-color: #fdae6b;
- fill: #fdae6b;
-}
-
-#mojo-graphic .key {
- font-family: Arial, Helvetica, sans-serif;
- margin: 0 0 1em 0;
- padding: 0;
- list-style-type: none;
-}
-
-#mojo-graphic .key .key-item { 
- display: inline-block;
- margin: 0 18px 0 0;
- padding: 0;
- line-height: 15px;
-}
-
-#mojo-graphic .key .key-item b { 
+.key .key-item b { 
  width: 15px;
  height: 15px;
  margin-right: 6px;
  float: left;
 }
 
-#mojo-graphic .key .key-item label { 
- white-space: nowrap;
- font-size: 12px;
- color: #333;
- font-weight: normal;
+.key-0 b, .yes, svg .yes path, .yes, svg path.yes {
+ background-color: #e6550d;
+ fill: #e6550d;
 }
 
-/*
-#jump_to_state select {
-
-    padding-left: .5em;
-    font-size: 14px;
-    line-height: 1;
-    border: 0;
-    border-radius: 0;
-    height: 2.3em;
-    -webkit-appearance: none;
-    font-weight: bold;
-    text-align: center;
-    color: #333315;
-    width: 11.4em;
- font-family: verdana;
-
+svg .challenged path, .challenged, svg path.challenged, .key-1 b {
+ background-color: #fdae6b;
+ fill: #fdae6b;
 }
 
-#jump_to_state {
-    background: #eeeeee;
-    float: left;
-    width: 12em;
-    overflow: hidden;
-    border: 2px solid #686868;
-    margin-bottom: 1.5em;
+.key-2 b, .no, svg path.no, svg .no path {
+ background-color: #f9f9f9;
+ fill: #ddd;
 }
-*/
 
-#mojo-graphic .inline_label {
+.challenged, .yes, .no {
+  text-align: center;
+  border-right: 1px solid #ddd;
+}
+
+
+.inline_label {
  display:none;
 }
 
 
-@media only screen and (max-width: 480px) {
 
-#mojo-graphic .key, #mojo-graphic form,  #mojo-graphic .svg_container {
- display: none;
-}
-
- #mojo-graphic,
- #mojo-graphic tbody, 
- #mojo-graphic tr, 
- #mojo-graphic td, 
- #mojo-graphic th,
- #mojo-graphic tbody.state_name,
- #mojo-graphic td.yes,
- #mojo-graphic td.challenged,
- #mojo-graphic td.no,
- #mojo-graphic td.no,
- #mojo-graphic td.penalties  { 
-  background:none;
-  width: 100%;
-  border:0;
-  color: #333;
-  border: none;
- }
-
- #mojo-graphic table {
-  display: block;
- }
- #mojo-graphic th {
-  border: none;
-  text-align: left;
-  font-weight: normal;
-  line-height: 1.5em;
-  position: relative;
-  padding: 5px!important;
-  margin-bottom: 0px;
-  color: #333;
- }
-
-
-
- #mojo-graphic th:nth-of-type(1):before { content: "State "; font-weight: bold; }
- #mojo-graphic td:nth-of-type(2):before { content: "Criteria"; font-weight: bold; }
- #mojo-graphic td:nth-of-type(3):before { content: "Judges"; font-weight: bold; }
- #mojo-graphic td:nth-of-type(4):before { content: "Evidence "; font-weight: bold;}
- #mojo-graphic td:nth-of-type(5):before { content: "Courts "; font-weight: bold;}
- #mojo-graphic td:nth-of-type(6):before { content: "Lawyers "; font-weight: bold;}
-
- #mojo-graphic .state_name {
-  width:3%;
-  text-transform: uppercase;
- }
-
- #mojo-graphic tr {
-  padding-bottom: 5px;
-  margin-bottom: 5px;
-  height: 4em;
- }
-
- #mojo-graphic tr:nth-of-type(odd) { 
-  background: #eee; 
- }
-
- #mojo-graphic thead,
- #mojo-graphic .mid_labels {
-  display:none!important;
- }
-
- #mojo-graphic p {
-  padding: 0;
-  margin: 0!important;
- }
-
- #mojo-graphic .inline_label {
-  display: block;
-  color: #eee;
- }
-}
