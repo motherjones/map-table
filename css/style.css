@@ -1,8 +1,11 @@
 
+
 svg {
-  width: 100%;
 }
 
+td {
+    width: 15%;
+}
 
 .key .key-item b { 
  width: 15px;
@@ -30,11 +33,4 @@ svg .challenged path, .challenged, svg path.challenged, .key-1 b {
   text-align: center;
   border-right: 1px solid #ddd;
 }
-
-
-.inline_label {
- display:none;
-}
-
-
 
