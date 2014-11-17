@@ -1,5 +1,4 @@
 #Combo map and table graphic for data about the 50 states
----
 
 ####Examples in the wild
 
@@ -18,7 +17,7 @@
                 <li class="key-item key-2"><b></b><span>No change</span></li>
         </ul>
 
-and 
+and every instance of:
 
         <th><h6>Specific information or criteria required of minors</h6>
         <div class="svg_container">
