@@ -1,4 +1,3 @@
-
 var onDocumentReady = function() {
 
     Tabletop.init( { 
@@ -22,7 +21,7 @@ var makeTable = function(data) {
 
         //add state name
         $tr.append('<td class="state_name">' + row['state'] + '</td>' );
-
+        
         $tr.append(makeCell(row, 'providestatus', 'providedetails', 'provide_map'));
         $tr.append(makeCell(row, 'evidencestatus', 'evidencedetails', 'evidence_map'));
         $tr.append(makeCell(row, 'judgesstatus', 'judgesdetails', 'judges_map'));
@@ -42,7 +41,6 @@ var makeTable = function(data) {
     pymChild = new pym.Child();
     pymChild.sendHeight();
 }
-
 /*
  * Create cell for a given row in column and apply appropriate classes to the map.
  */ 
