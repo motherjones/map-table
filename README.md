@@ -1,5 +1,7 @@
 #Combo map and table graphic for data about the 50 states
 
+![Alt text](https://raw.githubusercontent.com/motherjones/map-table/master/img/screenshot.png)
+
 ####Examples in the wild
 
 [Since 2010, how have states have made it harder for minors to obtain a judicial bypass?](http://www.motherjones.com/politics/2014/07/teen-abortion-judicial-bypass-parental-notification)
