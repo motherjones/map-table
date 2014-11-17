@@ -17,11 +17,14 @@ var makeTable = function(data) {
 
     for (i = 0; i < data.length; i++) {
         var row = data[i];
+        
+        //make postal abbreviation
         var $tr = jQuery('<tr id="' + row['postal'] + '_row"></tr>');
 
         //add state name
         $tr.append('<td class="state_name">' + row['state'] + '</td>' );
-        
+
+        //make cells and map for each category
         $tr.append(makeCell(row, 'providestatus', 'providedetails', 'provide_map'));
         $tr.append(makeCell(row, 'evidencestatus', 'evidencedetails', 'evidence_map'));
         $tr.append(makeCell(row, 'judgesstatus', 'judgesdetails', 'judges_map'));
