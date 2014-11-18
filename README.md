@@ -10,6 +10,8 @@ Sample screenshot
 
 [Since 2010, how have states have made it harder for minors to obtain a judicial bypass?](http://www.motherjones.com/politics/2014/07/teen-abortion-judicial-bypass-parental-notification)
 
+[Will Your State Be Next to Legalize Pot?](http://www.motherjones.com/politics/2014/02/pot-marijuana-legalization-map-states)
+
 ##Spreadsheet template
 
 [Here](https://docs.google.com/spreadsheet/ccc?key=0AuHOPshyxQGGdDNKWm1nZV9xNjc3YWxyTVA0eGVLaEE#gid=0). Make a copy and move to the relevant beat folder. Change owner to MoJo Data in ``Share > Advanced``
