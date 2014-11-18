@@ -1,4 +1,7 @@
-<center>![Alt text](https://raw.githubusercontent.com/motherjones/map-table/master/img/screenshot.png)</center>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/motherjones/map-table/master/img/screenshot.png" alt="screenshot"/>
+</p>
+
 
 ####Examples in the wild
 
