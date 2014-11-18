@@ -1,6 +1,6 @@
 ## Combo map and table for data about the 50 states
 
-Screenshot
+Sample screenshot
 <p align="center">
   <img src="https://raw.githubusercontent.com/motherjones/map-table/master/img/screenshot.png" alt="screenshot"/>
 </p>
