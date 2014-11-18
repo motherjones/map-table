@@ -1,6 +1,7 @@
-#Combo map and table graphic for data about the 50 states
+<p align="center">
+  <img src="https://raw.githubusercontent.com/motherjones/map-table/master/img/screenshot.png" alt="screenshot"/>
+</p>
 
-![Alt text](https://raw.githubusercontent.com/motherjones/map-table/master/img/screenshot.png)
 
 ####Examples in the wild
 
