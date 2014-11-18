@@ -1,11 +1,10 @@
 ## Combo map and table for data about the 50 states
 
 Sample screenshot. 
-
-*h/t to [@Alykat](https://twitter.com/alykat) from whom we stole a lot of css.*
 <p align="center">
   <img src="https://raw.githubusercontent.com/motherjones/map-table/master/img/screenshot.png" alt="screenshot"/>
 </p>
+*h/t to [@Alykat](https://twitter.com/alykat) from whom we stole a lot of css.*
 
 ##Examples in the wild
 
