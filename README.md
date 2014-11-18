@@ -15,9 +15,9 @@ Sample screenshot
 
 To make a copy of this tool for your project, get started by following [these instructions](https://github.com/motherjones/story-tools#starting-a-new-project).
 
-In your copy of the spreadsheet template, you'll give each state a status along one or more categories. Rename the categories and statuses in the template to match your story, keeping "status" and "details" at the end of each word.
+Each state has a pair of ``_status`` and ``_details`` columns along one or more categories. Change the first word in each of these columns to match the data in your story. Add or delete pairs of columns as needed. Two to four categories tend to work well.
 
-Additional details go in the `details` columns. These can be blurbs, [special characters](http://dev.w3.org/html5/html-author/charref), or blank. You can use ``<em></em>``, ``<strong></strong>``, ``<a></a>``, and other html tags in these cells for italics, bold, links, and more.
+The ``_details`` column contains display copy. These cells can contain regular blurbs, [special characters](http://dev.w3.org/html5/html-author/charref), or be blank. You can use ``<em></em>``, ``<strong></strong>``, ``<a></a>``, and other html tags in these cells for italics, bold, links, and more.
 
 Update the .html, .js, and .css files with your new categories and statuses, and seen in the [Modify](#modify-these-for-your-project) section.
 
