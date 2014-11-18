@@ -36,3 +36,9 @@ and every instance of:
         $tr.append(makeCell(row, 'judgesstatus', 'judgesdetails', 'judges_map'));
         $tr.append(makeCell(row, 'fewerstatus', 'fewerdetails', 'fewer_map'));
         $tr.append(makeCell(row, 'lawyersstatus', 'lawyersdetails', 'lawyers_map'));
+
+**In style.css**:
+
+Everywhere a status is mentioned, eg.:
+
+    .key-0 b, .yes, svg .yes path, .yes, svg path.yes ...
