@@ -5,12 +5,23 @@ Sample screenshot
   <img src="https://raw.githubusercontent.com/motherjones/map-table/master/img/screenshot.png" alt="screenshot"/>
 </p>
 
-
 ##Examples in the wild
 
 [Since 2010, how have states have made it harder for minors to obtain a judicial bypass?](http://www.motherjones.com/politics/2014/07/teen-abortion-judicial-bypass-parental-notification)
 
 [Will Your State Be Next to Legalize Pot?](http://www.motherjones.com/politics/2014/02/pot-marijuana-legalization-map-states)
+
+##How it works
+
+To make a copy of this tool for your project, get started by following [these instructions](https://github.com/motherjones/story-tools#starting-a-new-project).
+
+In your copy of the spreadsheet template, you'll give each state a status along one or more categories. Rename the categories and statuses in the template to match your story, keeping "status" and "details" at the end of each word.
+
+Additional details go in the `details` columns. These can be blurbs, [special characters](http://dev.w3.org/html5/html-author/charref), or blank. You can use ``<em></em>``, ``<strong></strong>``, ``<a></a>``, and other html tags in these cells for italics, bold, links, and more.
+
+Update the .html, .js, and .css files with your new categories and statuses, and seen in the [Modify](#modify-these-for-your-project) section.
+
+Finally, upload to s3 and embed in the shell [how to](https://github.com/motherjones/story-tools#starting-a-new-project).
 
 ##Spreadsheet template
 
