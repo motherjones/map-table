@@ -7,6 +7,7 @@ Sample screenshot.
 *h/t to [@Alykat](https://twitter.com/alykat) from whom we stole a lot of css.*
 
 ##Examples in the wild
+*Note: We've made style tweaks and refactored since these projects were published.*
 
 [Since 2010, how have states have made it harder for minors to obtain a judicial bypass?](http://www.motherjones.com/politics/2014/07/teen-abortion-judicial-bypass-parental-notification)
 
