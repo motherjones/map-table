@@ -26,8 +26,8 @@ Screenshot
 and every instance of:
 
         <th><h6>Specific information or criteria required of minors</h6>
-        <div class="svg_container">
-        <svg id="provide_map" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 959 593">
+        ...
+        <svg id="provide_map" ...
 
 
 **In script.js:**
