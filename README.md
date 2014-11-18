@@ -21,7 +21,7 @@ The ``_details`` column contains display copy. These cells can contain regular b
 
 Update the .html, .js, and .css files with your new categories and statuses, and seen in the [Modify](#modify-these-for-your-project) section.
 
-Finally, upload to s3 and embed in the shell [how to](https://github.com/motherjones/story-tools#starting-a-new-project).
+Finally, upload to s3 and embed in the shell [(how to)](https://github.com/motherjones/story-tools#starting-a-new-project).
 
 ##Spreadsheet template
 
