@@ -24,7 +24,9 @@ Update the .html, .js, and .css files with your new categories and statuses, and
 
 ##Spreadsheet template
 
-[Here](https://docs.google.com/spreadsheet/ccc?key=0AuHOPshyxQGGdDNKWm1nZV9xNjc3YWxyTVA0eGVLaEE#gid=0). *MoJo staffers:* Make a copy and move to the relevant beat folder. Change owner to MoJo Data in ``Share > Advanced``
+[Here](https://docs.google.com/spreadsheet/ccc?key=0AuHOPshyxQGGdDNKWm1nZV9xNjc3YWxyTVA0eGVLaEE#gid=0). 
+
+*MoJo staffers:* Make a copy and move to the relevant beat folder. Change owner to MoJo Data in ``Share > Advanced``
 
 ##Modify these for your project
 **In index.html:**
