@@ -17,11 +17,9 @@ Screenshot
 ##Modify these for your project
 **In index.html:**
 
-        <ul class="key list-inline">
             <li class="key-item key-0"><b></b><span>Restrictions passed</span></li>
             <li class="key-item key-1"><b></b><span>New restrictions passed but challenged in court</span></li>
             <li class="key-item key-2"><b></b><span>No change</span></li>
-        </ul>
 
 and every instance of:
 
