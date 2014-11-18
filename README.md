@@ -1,17 +1,20 @@
+## Combo map and table for data about the 50 states
+
+Screenshot
 <p align="center">
   <img src="https://raw.githubusercontent.com/motherjones/map-table/master/img/screenshot.png" alt="screenshot"/>
 </p>
 
 
-####Examples in the wild
+##Examples in the wild
 
 [Since 2010, how have states have made it harder for minors to obtain a judicial bypass?](http://www.motherjones.com/politics/2014/07/teen-abortion-judicial-bypass-parental-notification)
 
-####Spreadsheet template
+##Spreadsheet template
 
 [Here](https://docs.google.com/spreadsheet/ccc?key=0AuHOPshyxQGGdDFnemtSV2tCXzJDOFNfeDNQY2lvb2c&usp=drive_web)
 
-####Modify these for your project
+##Modify these for your project
 **In index.html:**
 
         <ul class="key list-inline">
