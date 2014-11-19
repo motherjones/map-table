@@ -17,6 +17,8 @@ Sample screenshot.
 
 Each state has a pair of ``_status`` and ``_details`` columns along one or more categories. Change the first word in each of these columns to match the data in your story. Add or delete pairs of columns as needed. Two to four categories tend to work well.
 
+You can change the terminology of the statuses and categories to whatever you want. 
+
 The ``_details`` column contains display copy. These cells can contain regular blurbs, [special characters](http://dev.w3.org/html5/html-author/charref), or be blank. You can use ``<em></em>``, ``<strong></strong>``, ``<a></a>``, and other html tags in these cells for italics, bold, links, and more.
 
 Update the .html, .js, and .css files with your new categories and statuses, and seen in the [Modify](#modify-these-for-your-project) section.
